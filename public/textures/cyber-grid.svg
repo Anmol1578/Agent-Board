@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <!-- Agent-Board Cyber Telemetry Coordinate Grid -->
+  <g>
+    <line x1="0" y1="0" x2="0" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="50" y1="0" x2="50" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="100" y1="0" x2="100" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="150" y1="0" x2="150" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="200" y1="0" x2="200" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="250" y1="0" x2="250" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="300" y1="0" x2="300" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="350" y1="0" x2="350" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="400" y1="0" x2="400" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="450" y1="0" x2="450" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="500" y1="0" x2="500" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="550" y1="0" x2="550" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="600" y1="0" x2="600" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="650" y1="0" x2="650" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="700" y1="0" x2="700" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="750" y1="0" x2="750" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="800" y1="0" x2="800" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="850" y1="0" x2="850" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="900" y1="0" x2="900" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="950" y1="0" x2="950" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1000" y1="0" x2="1000" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="1050" y1="0" x2="1050" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1100" y1="0" x2="1100" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1150" y1="0" x2="1150" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1200" y1="0" x2="1200" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="1250" y1="0" x2="1250" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1300" y1="0" x2="1300" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1350" y1="0" x2="1350" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1400" y1="0" x2="1400" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="1450" y1="0" x2="1450" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1500" y1="0" x2="1500" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1550" y1="0" x2="1550" y2="1000" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="1600" y1="0" x2="1600" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="0" y1="0" x2="1600" y2="0" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="0" y1="50" x2="1600" y2="50" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="100" x2="1600" y2="100" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="150" x2="1600" y2="150" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="200" x2="1600" y2="200" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="0" y1="250" x2="1600" y2="250" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="300" x2="1600" y2="300" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="350" x2="1600" y2="350" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="400" x2="1600" y2="400" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="0" y1="450" x2="1600" y2="450" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="500" x2="1600" y2="500" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="550" x2="1600" y2="550" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="600" x2="1600" y2="600" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="0" y1="650" x2="1600" y2="650" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="700" x2="1600" y2="700" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="750" x2="1600" y2="750" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="800" x2="1600" y2="800" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <line x1="0" y1="850" x2="1600" y2="850" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="900" x2="1600" y2="900" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="950" x2="1600" y2="950" stroke="#ffffff" stroke-width="0.6" stroke-opacity="0.10"/>
+    <line x1="0" y1="1000" x2="1600" y2="1000" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.32"/>
+    <path d="M 190 200 L 210 200 M 200 190 L 200 210" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="200" cy="200" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="208" y="192" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_20:20</text>
+    <path d="M 190 400 L 210 400 M 200 390 L 200 410" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="200" cy="400" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="208" y="392" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_20:40</text>
+    <path d="M 190 600 L 210 600 M 200 590 L 200 610" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="200" cy="600" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="208" y="592" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_20:60</text>
+    <path d="M 190 800 L 210 800 M 200 790 L 200 810" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="200" cy="800" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="208" y="792" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_20:80</text>
+    <path d="M 390 200 L 410 200 M 400 190 L 400 210" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="400" cy="200" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="408" y="192" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_40:20</text>
+    <path d="M 390 400 L 410 400 M 400 390 L 400 410" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="400" cy="400" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="408" y="392" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_40:40</text>
+    <path d="M 390 600 L 410 600 M 400 590 L 400 610" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="400" cy="600" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="408" y="592" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_40:60</text>
+    <path d="M 390 800 L 410 800 M 400 790 L 400 810" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="400" cy="800" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="408" y="792" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_40:80</text>
+    <path d="M 590 200 L 610 200 M 600 190 L 600 210" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="600" cy="200" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="608" y="192" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_60:20</text>
+    <path d="M 590 400 L 610 400 M 600 390 L 600 410" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="600" cy="400" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="608" y="392" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_60:40</text>
+    <path d="M 590 600 L 610 600 M 600 590 L 600 610" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="600" cy="600" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="608" y="592" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_60:60</text>
+    <path d="M 590 800 L 610 800 M 600 790 L 600 810" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="600" cy="800" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="608" y="792" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_60:80</text>
+    <path d="M 790 200 L 810 200 M 800 190 L 800 210" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="800" cy="200" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="808" y="192" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_80:20</text>
+    <path d="M 790 400 L 810 400 M 800 390 L 800 410" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="800" cy="400" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="808" y="392" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_80:40</text>
+    <path d="M 790 600 L 810 600 M 800 590 L 800 610" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="800" cy="600" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="808" y="592" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_80:60</text>
+    <path d="M 790 800 L 810 800 M 800 790 L 800 810" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="800" cy="800" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="808" y="792" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_80:80</text>
+    <path d="M 990 200 L 1010 200 M 1000 190 L 1000 210" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1000" cy="200" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1008" y="192" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_100:20</text>
+    <path d="M 990 400 L 1010 400 M 1000 390 L 1000 410" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1000" cy="400" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1008" y="392" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_100:40</text>
+    <path d="M 990 600 L 1010 600 M 1000 590 L 1000 610" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1000" cy="600" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1008" y="592" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_100:60</text>
+    <path d="M 990 800 L 1010 800 M 1000 790 L 1000 810" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1000" cy="800" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1008" y="792" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_100:80</text>
+    <path d="M 1190 200 L 1210 200 M 1200 190 L 1200 210" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1200" cy="200" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1208" y="192" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_120:20</text>
+    <path d="M 1190 400 L 1210 400 M 1200 390 L 1200 410" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1200" cy="400" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1208" y="392" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_120:40</text>
+    <path d="M 1190 600 L 1210 600 M 1200 590 L 1200 610" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1200" cy="600" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1208" y="592" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_120:60</text>
+    <path d="M 1190 800 L 1210 800 M 1200 790 L 1200 810" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1200" cy="800" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1208" y="792" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_120:80</text>
+    <path d="M 1390 200 L 1410 200 M 1400 190 L 1400 210" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1400" cy="200" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1408" y="192" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_140:20</text>
+    <path d="M 1390 400 L 1410 400 M 1400 390 L 1400 410" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1400" cy="400" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1408" y="392" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_140:40</text>
+    <path d="M 1390 600 L 1410 600 M 1400 590 L 1400 610" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1400" cy="600" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1408" y="592" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_140:60</text>
+    <path d="M 1390 800 L 1410 800 M 1400 790 L 1400 810" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.7"/>
+    <circle cx="1400" cy="800" r="2" fill="#ff6b35" fill-opacity="0.8"/>
+    <text x="1408" y="792" fill="#ffffff" fill-opacity="0.35" font-family="monospace" font-size="10" font-weight="600">AX_140:80</text>
+    <path d="M 40 70 L 40 40 L 70 40" stroke="#ff6b35" stroke-width="2" fill="none"/>
+    <path d="M 1560 70 L 1560 40 L 1530 40" stroke="#ff6b35" stroke-width="2" fill="none"/>
+    <path d="M 40 930 L 40 960 L 70 960" stroke="#ff6b35" stroke-width="2" fill="none"/>
+    <path d="M 1560 930 L 1560 960 L 1530 960" stroke="#ff6b35" stroke-width="2" fill="none"/>
+  </g>
+</svg>

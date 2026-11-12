@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" fill="none">
+  <!-- Agent-Board Orbital Ring & Celestial Vector Nodes -->
+  <g>
+    <ellipse cx="800" cy="500" rx="650" ry="240" transform="rotate(-18 800 500)" stroke="#ffffff" stroke-width="1.6" stroke-opacity="0.45" fill="none"/>
+    <ellipse cx="800" cy="500" rx="520" ry="190" transform="rotate(-18 800 500)" stroke="#ffffff" stroke-width="1.2" stroke-opacity="0.35" fill="none"/>
+    <ellipse cx="800" cy="500" rx="380" ry="140" transform="rotate(-18 800 500)" stroke="#ffffff" stroke-width="1.8" stroke-opacity="0.55" fill="none"/>
+    <ellipse cx="800" cy="500" rx="250" ry="95" transform="rotate(-18 800 500)" stroke="#ffffff" stroke-width="1.0" stroke-opacity="0.40" fill="none"/>
+    <ellipse cx="800" cy="500" rx="780" ry="290" transform="rotate(-18 800 500)" stroke="#ffffff" stroke-width="1.0" stroke-opacity="0.20" stroke-dasharray="8 8" fill="none"/>
+    <circle cx="800" cy="500" r="100" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.18" stroke-dasharray="4 6"/>
+    <circle cx="800" cy="500" r="200" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.18" stroke-dasharray="4 6"/>
+    <circle cx="800" cy="500" r="300" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.18" stroke-dasharray="4 6"/>
+    <circle cx="800" cy="500" r="400" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.18" stroke-dasharray="4 6"/>
+    <circle cx="800" cy="500" r="500" stroke="#ffffff" stroke-width="0.8" stroke-opacity="0.18" stroke-dasharray="4 6"/>
+    <path d="M 800 296 Q 800 320 806 320 Q 800 320 824 320 Q 800 320 806 320 Q 800 320 800 344 Q 800 320 794 320 Q 800 320 776 320 Q 800 320 794 320 Z" fill="#ffffff" fill-opacity="0.95"/>
+    <path d="M 1060 402 Q 1060 420 1064.5 420 Q 1060 420 1078 420 Q 1060 420 1064.5 420 Q 1060 420 1060 438 Q 1060 420 1055.5 420 Q 1060 420 1042 420 Q 1060 420 1055.5 420 Z" fill="#ffffff" fill-opacity="0.85"/>
+    <path d="M 540 560 Q 540 580 545 580 Q 540 580 560 580 Q 540 580 545 580 Q 540 580 540 600 Q 540 580 535 580 Q 540 580 520 580 Q 540 580 535 580 Z" fill="#ffffff" fill-opacity="0.80"/>
+    <path d="M 350 406 Q 350 420 353.5 420 Q 350 420 364 420 Q 350 420 353.5 420 Q 350 420 350 434 Q 350 420 346.5 420 Q 350 420 336 420 Q 350 420 346.5 420 Z" fill="#ffffff" fill-opacity="0.65"/>
+    <path d="M 1250 544 Q 1250 560 1254 560 Q 1250 560 1266 560 Q 1250 560 1254 560 Q 1250 560 1250 576 Q 1250 560 1246 560 Q 1250 560 1234 560 Q 1250 560 1246 560 Z" fill="#ffffff" fill-opacity="0.75"/>
+    <path d="M 920 665 Q 920 680 923.75 680 Q 920 680 935 680 Q 920 680 923.75 680 Q 920 680 920 695 Q 920 680 916.25 680 Q 920 680 905 680 Q 920 680 916.25 680 Z" fill="#ffffff" fill-opacity="0.70"/>
+    <path d="M 680 228 Q 680 240 683 240 Q 680 240 692 240 Q 680 240 683 240 Q 680 240 680 252 Q 680 240 677 240 Q 680 240 668 240 Q 680 240 677 240 Z" fill="#ffffff" fill-opacity="0.60"/>
+    <circle cx="420" cy="500" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="420" cy="500" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    <circle cx="1180" cy="500" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="1180" cy="500" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    <circle cx="620" cy="390" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="620" cy="390" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    <circle cx="980" cy="610" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="980" cy="610" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    <circle cx="720" cy="560" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="720" cy="560" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    <circle cx="880" cy="440" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="880" cy="440" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    <circle cx="280" cy="470" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="280" cy="470" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+    <circle cx="1320" cy="530" r="3" fill="#ff6b35" fill-opacity="0.9"/>
+    <circle cx="1320" cy="530" r="7" stroke="#ff6b35" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+  </g>
+</svg>
