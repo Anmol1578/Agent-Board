@@ -1,7 +1,6 @@
+
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Get a free hosted Postgres database in seconds: `npx create-db`
 
 generator client {
   provider = "prisma-client"
@@ -10,4 +9,91 @@ generator client {
 
 datasource db {
   provider = "postgresql"
+}
+
+enum WorkspaceStatus {
+  PLANNING
+  ACTIVE
+  COMPLETED
+  ARCHIVED
+}
+
+model User {
+  id        String   @id @default(cuid())
+  clerkId   String   @unique
+  email     String   @unique
+  name      String?
+  imageUrl  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Workspaces this user created.
+  createdWorkspaces Workspace[]
+  agentPrompts      AgentPrompt[]
+}
+
+model Workspace {
+  id          String          @id @default(cuid())
+  name        String
+  description String?
+  creatorId   String
+  clerkOrgId  String?
+
+  // Dashboard kanban column + order within it.
+  status      WorkspaceStatus @default(PLANNING)
+  position    Float           @default(0)
+
+  // Public read-only link token.
+  shareToken  String?         @unique
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  creator      User          @relation(fields: [creatorId], references: [id], onDelete: Cascade)
+  doc          Doc?
+  canvas       Canvas?
+  agentPrompts AgentPrompt[]
+
+  @@index([creatorId])
+  @@index([clerkOrgId])
+}
+
+model Doc {
+  id          String   @id @default(cuid())
+  workspaceId String   @unique
+
+  // BlockNote block JSON.
+  content     Json?
+
+  // Yjs document state.
+  yjsState    Bytes?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  workspace Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+}
+
+model Canvas {
+  id          String   @id @default(cuid())
+  workspaceId String   @unique
+
+  // tldraw shape/store snapshot.
+  content     Json?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  workspace Workspace @relation(fields: [workspaceId], references: [id], onDelete: Cascade)
+}
+
+// One row per prompt a user sends to the agent.
+model AgentPrompt {
+  id          String   @id @default(cuid())
+  ownerId     String
+  userId      String
+  workspaceId String?
+  createdAt   DateTime @default(now())
+
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  workspace Workspace? @relation(fields: [workspaceId], references: [id], onDelete: SetNull)
+
+  @@index([ownerId, createdAt])
 }
