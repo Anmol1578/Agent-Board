@@ -1,3 +1,4 @@
+
 # ==========================================
 # DEPENDENCIES
 # ==========================================
@@ -53,7 +54,7 @@ storybook-static/
 
 # ==========================================
 # DATABASE & PRISMA
-# (keep prisma/schema.prisma, prisma/migrations, prisma.config.ts)
+# (Keep schema, migrations and Prisma config)
 # ==========================================
 **/generated/prisma/
 *.db
@@ -62,7 +63,7 @@ storybook-static/
 
 # ==========================================
 # AI AGENT / SKILLS / EDITOR-AI CONFIG
-# (keep AGENTS.md if you want it in the repo)
+# (Keep AGENTS.md if you want it in the repo)
 # ==========================================
 .agent/
 .agents/
@@ -122,7 +123,6 @@ lerna-debug.log*
 *.suo
 *.ntvs*
 *.njsproj
-*.sln
 *.sw?
 
 # ==========================================
