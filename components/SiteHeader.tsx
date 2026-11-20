@@ -26,7 +26,7 @@ export function SiteHeader() {
         className="flex items-center"
       >
         <Image
-          src="/brand/logo-navbar-dark.png"
+          src="/brand/logo-navbar-purple.png"
           alt="Agent-Board"
           width={314}
           height={160}

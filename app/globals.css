@@ -52,39 +52,39 @@
 /* Outpost is dark-mode only, so :root and .dark share one palette — no light variant to maintain. */
 :root,
 .dark {
-  --background: oklch(0.13 0.004 285);
+  --background: oklch(0.12 0.006 285);
   --foreground: oklch(0.97 0.002 285);
-  --card: oklch(0.17 0.005 285);
+  --card: oklch(0.16 0.008 285);
   --card-foreground: oklch(0.97 0.002 285);
-  --popover: oklch(0.18 0.005 285);
+  --popover: oklch(0.17 0.008 285);
   --popover-foreground: oklch(0.97 0.002 285);
-  /* Amber accent — brand color, deliberately not the generic AI-purple */
-  --primary: oklch(0.74 0.16 55);
-  --primary-foreground: oklch(0.15 0.02 55);
-  --secondary: oklch(0.24 0.006 285);
+  /* Tesser.sh Purple / Violet brand accent */
+  --primary: oklch(0.68 0.22 285);
+  --primary-foreground: oklch(0.98 0.005 285);
+  --secondary: oklch(0.22 0.012 285);
   --secondary-foreground: oklch(0.97 0.002 285);
-  --muted: oklch(0.22 0.006 285);
-  --muted-foreground: oklch(0.64 0.01 285);
-  --accent: oklch(0.27 0.02 55);
-  --accent-foreground: oklch(0.93 0.03 60);
+  --muted: oklch(0.20 0.01 285);
+  --muted-foreground: oklch(0.65 0.015 285);
+  --accent: oklch(0.25 0.035 285);
+  --accent-foreground: oklch(0.93 0.03 285);
   --destructive: oklch(0.65 0.22 25);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.74 0.16 55 / 50%);
-  --chart-1: oklch(0.74 0.16 55);
-  --chart-2: oklch(0.6 0.14 40);
-  --chart-3: oklch(0.5 0.02 285);
-  --chart-4: oklch(0.4 0.01 285);
-  --chart-5: oklch(0.3 0.01 285);
+  --ring: oklch(0.68 0.22 285 / 50%);
+  --chart-1: oklch(0.68 0.22 285);
+  --chart-2: oklch(0.60 0.20 270);
+  --chart-3: oklch(0.50 0.15 295);
+  --chart-4: oklch(0.40 0.10 285);
+  --chart-5: oklch(0.30 0.05 285);
   --radius: 0.625rem;
-  --sidebar: oklch(0.15 0.004 285);
+  --sidebar: oklch(0.14 0.006 285);
   --sidebar-foreground: oklch(0.97 0.002 285);
-  --sidebar-primary: oklch(0.74 0.16 55);
-  --sidebar-primary-foreground: oklch(0.15 0.02 55);
-  --sidebar-accent: oklch(0.22 0.006 285);
+  --sidebar-primary: oklch(0.68 0.22 285);
+  --sidebar-primary-foreground: oklch(0.98 0.005 285);
+  --sidebar-accent: oklch(0.20 0.01 285);
   --sidebar-accent-foreground: oklch(0.97 0.002 285);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.74 0.16 55 / 50%);
+  --sidebar-ring: oklch(0.68 0.22 285 / 50%);
 }
 
 @layer base {
@@ -127,8 +127,8 @@
     z-index: -1;
     pointer-events: none;
     background: radial-gradient(ellipse 40% 50% at 50% 42%,
-        oklch(0.78 0.16 60),
-        oklch(0.74 0.16 55 / 0.55) 45%,
+        oklch(0.72 0.22 285),
+        oklch(0.68 0.22 285 / 0.55) 45%,
         oklch(1 0 0 / 0.45) 75%);
     mask-image:
       url("/textures/topo.svg"),
@@ -141,13 +141,12 @@
   }
 }
 
-/* Registration marks: small amber corner ticks just outside an element, like the crop marks on a
-   printed map sheet. Put it on a wrapper, since an overflow-hidden element would clip them. */
+/* Registration marks: small purple corner ticks just outside an element */
 @utility survey-frame {
   position: relative;
 
   &::after {
-    --mark: oklch(0.74 0.16 55 / 0.7);
+    --mark: oklch(0.68 0.22 285 / 0.7);
     --size: 14px;
     content: "";
     position: absolute;
@@ -187,4 +186,89 @@
       animation-range: 0 500px;
     }
   }
+}
+
+/* Background Texture Motion Animations */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes grid-drift {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-16px) scale(1.015);
+  }
+}
+
+@keyframes topo-drift {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+    opacity: 0.35;
+  }
+  50% {
+    transform: scale(1.03) translateY(-10px);
+    opacity: 0.65;
+  }
+}
+
+@keyframes circuit-glow {
+  0%, 100% {
+    opacity: 0.35;
+    filter: drop-shadow(0 0 2px oklch(0.68 0.22 285 / 0.25));
+  }
+  50% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 12px oklch(0.68 0.22 285 / 0.75));
+  }
+}
+
+@keyframes dot-pulse {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.38;
+    transform: scale(1.015);
+  }
+}
+
+@utility animate-spin-slow {
+  animation: spin-slow 90s linear infinite;
+}
+
+@utility animate-spin-reverse {
+  animation: spin-reverse 75s linear infinite;
+}
+
+@utility animate-grid-drift {
+  animation: grid-drift 24s ease-in-out infinite;
+}
+
+@utility animate-topo-drift {
+  animation: topo-drift 18s ease-in-out infinite;
+}
+
+@utility animate-circuit-glow {
+  animation: circuit-glow 8s ease-in-out infinite;
+}
+
+@utility animate-dot-pulse {
+  animation: dot-pulse 12s ease-in-out infinite;
 }
