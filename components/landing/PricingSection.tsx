@@ -9,52 +9,56 @@ import { SignUpButton, Show } from "@clerk/nextjs";
 export function PricingSection() {
   const tiers = [
     {
-      name: "Hobbyist",
+      name: "Free",
+      planKey: "free_user",
       price: "$0",
       cadence: "forever free",
-      description: "For individual builders and developers exploring agent workflows.",
+      description: "For individual builders exploring visual architecture design and living spec drafting.",
       features: [
-        "1 Active Agent Swarm",
-        "5 Ephemeral cloud execution sandboxes",
-        "Community Model Context Protocol (MCP) servers",
-        "Real-time visual canvas with markdown",
-        "Public workspace sharing",
+        "5 AI Agent prompts per month",
+        "Up to 3 active project workspaces",
+        "Live collaboration on docs & canvas",
+        "Interactive tldraw & BlockNote editor",
+        "Standard community exports (Markdown / JSON)",
       ],
       cta: "Start building free",
-      href: "/sign-up",
       highlighted: false,
     },
     {
       name: "Pro Builder",
-      price: "$20",
+      planKey: "pro_builder",
+      price: "$15",
       cadence: "per month",
-      description: "For engineers shipping production software with parallel agents.",
+      description: "For engineers and builders shipping production software with agent-assisted workflows.",
       features: [
-        "Unlimited concurrent agent swarms",
-        "High-performance 8-core isolated cloud boxes",
-        "Zero-latency automated port forwarding",
-        "Custom private MCP integrations",
-        "Priority reasoning model routing (Claude 3.7 / o3)",
-        "Deterministic trace checkpoints & rollbacks",
+        "200 AI Agent prompts per month",
+        "Unlimited project workspaces",
+        "Voice input & natural dictation",
+        "Public share links for live specs",
+        "High-resolution PDF & canvas export",
+        "Real-time multiplayer collaboration",
+        "Priority agent synthesis queue",
       ],
       cta: "Upgrade to Pro",
-      href: "/sign-up",
       highlighted: true,
     },
     {
-      name: "Enterprise BYOC",
-      price: "Custom",
-      cadence: "annual billing",
-      description: "Deploy Agent-Board inside your own AWS/GCP cloud boundary.",
+      name: "Enterprise",
+      planKey: "enterprise",
+      price: "$99",
+      cadence: "per month",
+      description: "For engineering teams and scaling organizations building complex systems with AI agents.",
       features: [
-        "Bring Your Own Compute (AWS SSM / Pulumi)",
-        "Zero data leaves your corporate VPC",
-        "Custom VPC peering & private subnet isolation",
-        "SSO / SAML & granular team RBAC",
-        "99.99% uptime SLA & dedicated engineer support",
+        "800 AI Agent prompts per month",
+        "Unlimited project workspaces",
+        "Voice input with multi-turn prompt refinement",
+        "Public share links & interactive view-only decks",
+        "High-resolution PDF, SVG & JSON exports",
+        "Live multiplayer collaboration & team permissions",
+        "Dedicated agent throughput & priority compute",
+        "Direct founder support & architecture reviews",
       ],
-      cta: "Contact Sales",
-      href: "mailto:founders@agent-board.dev",
+      cta: "Get Enterprise",
       highlighted: false,
     },
   ];
@@ -63,15 +67,15 @@ export function PricingSection() {
     <section id="pricing" className="relative py-20 md:py-32 px-4 sm:px-6 max-w-7xl mx-auto z-10 border-t border-white/6">
       {/* Section Header */}
       <div className="flex flex-col items-center text-center mb-16">
-        <div className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/[0.03] px-3 py-1 font-mono text-[11px] uppercase tracking-widest text-primary mb-3">
+        <div className="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/[0.03] px-3 py-1 font-mono text-[11px] uppercase tracking-widest text-primary mb-3 shadow-[0_0_15px_-3px_oklch(0.68_0.22_285/0.25)]">
           <span>◆</span>
-          <span>Transparent Pricing</span>
+          <span>Transparent Plans</span>
         </div>
         <h2 className="font-heading text-3xl sm:text-5xl font-bold tracking-tight text-foreground max-w-3xl leading-tight mb-4">
-          Start free, scale into your own cloud
+          Simple, predictable pricing for builders
         </h2>
         <p className="max-w-2xl text-muted-foreground text-sm sm:text-base leading-relaxed">
-          Predictable compute pricing with zero lock-in. Run on our managed cloud or connect your own AWS account.
+          Design architectures on canvas, synthesize living specs, and orchestrate agent execution with zero hidden fees.
         </p>
       </div>
 
