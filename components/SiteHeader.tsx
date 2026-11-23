@@ -13,6 +13,7 @@ import {
 } from "@clerk/nextjs";
 
 import { Button } from "@/components/ui/button";
+import { PlanButton } from "@/components/PlanButton";
 
 export function SiteHeader() {
   const pathname = usePathname();
@@ -65,6 +66,8 @@ export function SiteHeader() {
         </Show>
 
         <Show when="signed-in">
+          <PlanButton />
+
           <OrganizationSwitcher
             afterCreateOrganizationUrl="/dashboard"
             afterSelectOrganizationUrl="/dashboard"
